@@ -1,0 +1,399 @@
+!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Curriculum</title>
+    <link href="estilo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">john doe</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+            <li>
+              <a href="#sobremi" onClick="seleccionar()">Sobre mi</a>
+            </li>
+            <li>
+              <a href="#curriculum" onClick="seleccionar()">Curriculum</a>
+            </li>
+            <li><a href="#skills" onClick="seleccionar()">Skills</a></li>
+
+            <li><a href="#portfolio" onClick="seleccionar()">Portfolio</a></li>
+            <li><a href="#contacto" onClick="seleccionar()">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onClick="mostrarOcultarMenu()">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- Sección inicio -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="col contenido-img">
+          <img alt="imagen dev" src="img/dev1.png" />
+        </div>
+        <div class="col contenido-titulo">
+          <h1>john doe</h1>
+          <h2>Full stack developer</h2>
+
+          <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccioón datos personales -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p>
+          A molestie <span>lorem ipsum dolor</span> sit amet. Et netus et
+          malesuada fames ac turpis. Ut placerat orci nulla pellentesque
+          dignissim enim, sit amet venenatis urna cursus eget nunc scelerisque
+          viverra mauris, in aliquam sem fringilla ut morbi tincidunt augue
+          interdum? Auctor neque, vitae tempus quam pellentesque nec nam aliquam
+          sem et tortor consequat id porta nibh venenatis cras sed felis. Est
+          pellentesque elit ullamcorper dignissim cras tincidunt lobortis
+          feugiat vivamus at augue eget arcu dictum varius duis at consectetur
+          lorem.
+        </p>
+        <div class="fila">
+          <div class="col">
+            <h3>Datos personales</h3>
+            <ul>
+              <li><strong>Nombre y Apellido: </strong>John Doe</li>
+              <li><strong>Fecha de Nacimiento: </strong>01-01-1978</li>
+              <li><strong>DNI: </strong>23990234</li>
+              <li><strong>Telefono: </strong>3861 412141</li>
+              <li><strong>Email</strong>email@example.com</li>
+              <li><strong>Cuit</strong>20-23990234-8</li>
+            </ul>
+          </div>
+          <!-- Subseccion intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenido-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-film"></i>
+                <span>CINE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-linux"></i>
+                <span>LINUX</span>
+              </div>
+              <div class="interes">
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <span>EMACS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>LIBROS</span>
+              </div>
+
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Formación Academica</h3>
+            <div class="item izq">
+              <h4>Amet, consectetur adipiscing</h4>
+              <span class="casa">Universidad de Oxford</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>
+                Aliquet enim tortor, at auctor. Cursus turpis massa tincidunt
+                dui ut ornare lectus sit amet est placerat in egestas erat
+                imperdiet sed euismod nisi porta lorem mollis aliquam ut
+                porttitor.
+              </p>
+            </div>
+
+            <div class="item izq">
+              <h4>Malesuada proin!</h4>
+              <span class="casa">Universidad de Oxford</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>
+                Aliquet enim tortor, at auctor. Cursus turpis massa tincidunt
+                dui ut ornare lectus sit amet est placerat in egestas erat
+                imperdiet sed euismod nisi porta lorem mollis aliquam ut
+                porttitor.
+              </p>
+            </div>
+
+            <div class="item izq">
+              <h4>Venenatis, lectus magna!</h4>
+              <span class="casa">Universidad de Oxford</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>
+                Aliquet enim tortor, at auctor. Cursus turpis massa tincidunt
+                dui ut ornare lectus sit amet est placerat in egestas erat
+                imperdiet sed euismod nisi porta lorem mollis aliquam ut
+                porttitor.
+              </p>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Expreciencia laboral</h3>
+            <div class="item der">
+              <h4>Frontend Developer</h4>
+              <span class="casa">Compañia</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>
+                Aliquet enim tortor, at auctor. Cursus turpis massa tincidunt
+                dui ut ornare lectus sit amet est placerat in egestas erat
+                imperdiet sed euismod nisi porta lorem mollis aliquam ut
+                porttitor.
+              </p>
+            </div>
+
+            <div class="item der">
+              <h4>Frontend Developer</h4>
+              <span class="casa">Compañia</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>
+                Aliquet enim tortor, at auctor. Cursus turpis massa tincidunt
+                dui ut ornare lectus sit amet est placerat in egestas erat
+                imperdiet sed euismod nisi porta lorem mollis aliquam ut
+                porttitor.
+              </p>
+            </div>
+
+            <div class="item der">
+              <h4>Frontend Developer</h4>
+              <span class="casa">Compañia</span>
+              <span class="fecha">2005 - 2008</span>
+              <p>
+                Aliquet enim tortor, at auctor. Cursus turpis massa tincidunt
+                dui ut ornare lectus sit amet est placerat in egestas erat
+                imperdiet sed euismod nisi porta lorem mollis aliquam ut
+                porttitor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Habilidades Tecnicas</h3>
+            <div class="skill">
+              <span>Javascript 75%</span>
+              <div class="barra-skill">
+                <div class="progreso javascript"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS 89%</span>
+              <div class="barra-skill">
+                <div class="progreso htmlcss"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Photoshop 95%</span>
+              <div class="barra-skill">
+                <div class="progreso photoshop"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Wordpress 81%</span>
+              <div class="barra-skill">
+                <div class="progreso wordpress"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Drupal 55%</span>
+              <div class="barra-skill">
+                <div class="progreso drupal"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3>Habilidades Profesionales</h3>
+            <div class="skill">
+              <span>Comunicación 80%</span>
+              <div class="barra-skill">
+                <div class="progreso comunicacion"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en Equipo 80%</span>
+              <div class="barra-skill">
+                <div class="progreso trabajo"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creatividad 90%</span>
+              <div class="barra-skill">
+                <div class="progreso creatividad"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación 85%</span>
+              <div class="barra-skill">
+                <div class="progreso dedicacion"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Proyect Management 94%</span>
+              <div class="barra-skill">
+                <div class="progreso proyect"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="contenido-seccion">
+        <h2>Portfolio</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img alt="" src="img/work1.jpg" />
+            <div class="descripcion">
+              <h3>Portfolio HTML CSS JS</h3>
+              <p>Vitae congue mauris rhoncus aenean vel elit!</p>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <img alt="" src="img/work2.jpg" />
+            <div class="descripcion">
+              <h3>Portfolio HTML CSS JS</h3>
+              <p>Nulla porttitor massa id neque aliquam vestibulum morbi.</p>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <img alt="" src="img/work3.jpg" />
+            <div class="descripcion">
+              <h3>Portfolio HTML CSS JS</h3>
+              <p>Auctor urna nunc id cursus metus aliquam eleifend mi in.</p>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <img alt="" src="img/work4.jpg" />
+            <div class="descripcion">
+              <h3>Portfolio HTML CSS JS</h3>
+              <p>
+                Duis tristique sollicitudin nibh sit amet commodo nulla facilisi
+              </p>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <img alt="" src="img/work5.jpg" />
+            <div class="descripcion">
+              <h3>Portfolio HTML CSS JS</h3>
+              <p>Vel fringilla est ullamcorper eget nulla facilisi etiam!</p>
+            </div>
+          </div>
+
+          <div class="proyecto">
+            <img alt="" src="img/work6.jpg" />
+            <div class="descripcion">
+              <h3>Portfolio HTML CSS JS</h3>
+              <p>Lacinia quis vel eros donec ac odio tempor orci dapibus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+          <div class="col">
+            <input type="text" placeholder="Nombre" />
+            <input type="text" placeholder="Telefono" />
+            <input type="text" placeholder="Email" />
+
+            <textarea
+              cols="30"
+              id=""
+              name=""
+              rows="6"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>
+              Enviar Mensaje <i class="fa-solid fa-paper-plane"></i
+              ><span class="overlay"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <a class="arriba" href="#inicio">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-solid fa-rss"></i></a>
+      </div>
+      <p>&#169; 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
